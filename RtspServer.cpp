@@ -2,7 +2,7 @@
 
 RtspServer::RtspServer()
 {
-    pic1 = cv::imread("images/1.jpg");
+    cv::Mat pic1 = cv::imread("images/1.jpg");
     frame_pointer = &pic1;
     gst_init(NULL, NULL);
     loop = g_main_loop_new(NULL, FALSE);
@@ -35,9 +35,9 @@ void RtspServer::stop_server()
     g_main_loop_quit(loop);
 }
 
-void RtspServer::feed_frame()
+void RtspServer::feed_frame(cv::Mat* new_frame)
 {
-    
+    frame_pointer = new_frame;
 }
 void RtspServer::need_data(GstElement* appsrc, guint unused, MyContext* ctx)
 {
@@ -59,7 +59,7 @@ void RtspServer::need_data(GstElement* appsrc, guint unused, MyContext* ctx)
     gst_buffer_map(buffer, &map, GST_MAP_WRITE);
 
     // Generate a random image number between 1 and 5
-    int randomImageNumber = rand() % 5 + 1;
+    // int randomImageNumber = rand() % 5 + 1;
 
     // Construct the image filename
     // std::string filename = "images/" + std::to_string(randomImageNumber) + ".jpg";

@@ -27,14 +27,9 @@ public:
     ~RtspServer();
 
     cv::Mat* frame_pointer;
-    cv::Mat pic1;
-    cv::Mat pic2;
-    cv::Mat pic3;
-    cv::Mat pic4;
-    cv::Mat pic5;
     void start_server();
     void stop_server();
-    void feed_frame();
+    void feed_frame(cv::Mat* new_frame);
 };
 
 
