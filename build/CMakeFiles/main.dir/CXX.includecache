@@ -4216,10 +4216,6 @@ limits.h
 float.h
 -
 
-/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/RtspServer.cpp
-RtspServer.hpp
-/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/RtspServer.hpp
-
 /nfs/share/minh.nguyen-xuan/test-appsrc-jetson/RtspServer.hpp
 cstdlib
 -
@@ -4228,5 +4224,11 @@ gst/gst.h
 gst/rtsp-server/rtsp-server.h
 -
 opencv2/opencv.hpp
+-
+
+/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/main.cpp
+RtspServer.hpp
+/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/RtspServer.hpp
+boost/thread.hpp
 -
 

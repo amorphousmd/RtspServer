@@ -15,7 +15,7 @@ private:
     GstRTSPMediaFactory* factory;
 
     typedef struct {
-        cv::Mat frame;
+        cv::Mat* frame_pointer;
         GstClockTime timestamp;
     } MyContext;
 
@@ -26,6 +26,7 @@ public:
     RtspServer(/* args */);
     ~RtspServer();
 
+    cv::Mat* frame_pointer;
     cv::Mat pic1;
     cv::Mat pic2;
     cv::Mat pic3;

@@ -3,10 +3,7 @@
 RtspServer::RtspServer()
 {
     pic1 = cv::imread("images/1.jpg");
-    pic2 = cv::imread("images/2.jpg");
-    pic3 = cv::imread("images/3.jpg");
-    pic4 = cv::imread("images/4.jpg");
-    pic5 = cv::imread("images/5.jpg");
+    frame_pointer = &pic1;
     gst_init(NULL, NULL);
     loop = g_main_loop_new(NULL, FALSE);
     server = gst_rtsp_server_new();
@@ -61,39 +58,20 @@ void RtspServer::need_data(GstElement* appsrc, guint unused, MyContext* ctx)
     // Map the buffer for writing
     gst_buffer_map(buffer, &map, GST_MAP_WRITE);
 
-    // cv::Mat frame
     // Generate a random image number between 1 and 5
     int randomImageNumber = rand() % 5 + 1;
 
-    // switch (randomImageNumber)
-    // {
-    // case 1:
-    //     frame = pic1;
-    //     break;
-    // case 2:
-    //     frame = pic2;
-    //     break;
-    // case 3:
-    //     frame = pic3;
-    //     break;
-    // case 4:
-    //     frame = pic4;
-    //     break;
-    // case 5:
-    //     frame = pic5;
-    //     break;
-    // default:
-    //     break;
-    // }
     // Construct the image filename
-    std::string filename = "images/" + std::to_string(randomImageNumber) + ".jpg";
+    // std::string filename = "images/" + std::to_string(randomImageNumber) + ".jpg";
 
-    // Load the image from disk
-    cv::Mat frame = cv::imread(filename);
+    // // Load the image from disk
+    // cv::Mat frame = cv::imread(filename);
+    cv::Mat frame = *(ctx->frame_pointer);
 
     if (frame.empty()) {
         // Handle the case where the image couldn't be loaded
-        g_print("Failed to load the image from disk: %s\n", filename.c_str());
+        // g_print("Failed to load the image from disk: %s\n", filename.c_str());
+        g_print("Failed to load the image from disk: %s\n");
         gst_buffer_unref(buffer);
         return;
     }
@@ -121,6 +99,7 @@ void RtspServer::need_data(GstElement* appsrc, guint unused, MyContext* ctx)
 
 void RtspServer::media_configure(GstRTSPMediaFactory* factory, GstRTSPMedia* media, gpointer user_data)
 {
+    RtspServer* self = static_cast<RtspServer*>(user_data);
     GstElement *element, *appsrc;
     MyContext *ctx;
 
@@ -141,7 +120,7 @@ void RtspServer::media_configure(GstRTSPMediaFactory* factory, GstRTSPMedia* med
                                     "framerate", GST_TYPE_FRACTION, 0, 1, NULL), NULL);
 
     ctx = g_new0(MyContext, 1);
-    ctx->frame = cv::Mat(288, 384, CV_8UC3); // Adjust the size as needed
+    ctx->frame_pointer = self->frame_pointer; // Adjust the size as needed
     ctx->timestamp = 0;
     /* make sure the data are freed when the media is gone */
     g_object_set_data_full(G_OBJECT(media), "my-extra-data", ctx,

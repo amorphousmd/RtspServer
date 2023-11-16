@@ -14,13 +14,23 @@
 # EXTERNAL cache entries
 ########################
 
+Boost_CHRONO_LIBRARY_RELEASE:STRING=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/libboost_chrono.so.1.72.0
+
+//The directory containing a CMake configuration file for Boost.
+Boost_DIR:PATH=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/cmake/Boost-1.72.0
+
+//Path to a file.
+Boost_INCLUDE_DIR:PATH=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include
+
+Boost_TIMER_LIBRARY_RELEASE:STRING=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/libboost_timer.so.1.72.0
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-addr2line
 
 //Path to a program.
 CMAKE_AR:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-ar
 
-CMAKE_ASM_FLAGS:STRING=
+CMAKE_ASM_FLAGS:STRING=' -O2 -pipe -g -feliminate-unused-debug-types '
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
@@ -29,7 +39,7 @@ CMAKE_BUILD_TYPE:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES:STRING=/usr/local/cuda-/include;/usr/local/cuda-/include
+CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES:STRING=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/local/cuda-10.2/include;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/local/cuda-10.2/include
 
 //CXX compiler
 CMAKE_CXX_COMPILER:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
@@ -45,7 +55,7 @@ CMAKE_CXX_COMPILER_ARG1:STRING=  -march=armv8-a+crc -fstack-protector-strong  -D
 // for the GCC compiler
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc-ranlib
 
-CMAKE_CXX_FLAGS:STRING=
+CMAKE_CXX_FLAGS:STRING=' -O2 -pipe -g -feliminate-unused-debug-types '
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -73,7 +83,7 @@ CMAKE_C_COMPILER_ARG1:STRING=  -march=armv8-a+crc -fstack-protector-strong  -D_F
 // for the GCC compiler
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc-ranlib
 
-CMAKE_C_FLAGS:STRING=
+CMAKE_C_FLAGS:STRING=' -O2 -pipe -g -feliminate-unused-debug-types '
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
@@ -220,12 +230,21 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-li
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-CUDA_TOOLKIT_ROOT_DIR:PATH=/usr/local/cuda-
+CUDA_TOOLKIT_ROOT_DIR:PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/local/cuda-10.2
 
-CUDA_TOOLKIT_TARGET_DIR:PATH=/usr/local/cuda-
+CUDA_TOOLKIT_TARGET_DIR:PATH=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/local/cuda-10.2
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/pkg-config
+
+//The directory containing a CMake configuration file for boost_chrono.
+boost_chrono_DIR:PATH=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/cmake/boost_chrono-1.72.0
+
+//The directory containing a CMake configuration file for boost_headers.
+boost_headers_DIR:PATH=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/cmake/boost_headers-1.72.0
+
+//The directory containing a CMake configuration file for boost_timer.
+boost_timer_DIR:PATH=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/cmake/boost_timer-1.72.0
 
 //Path to a library.
 pkgcfg_lib_GSTREAMER_glib-2.0:FILEPATH=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/libglib-2.0.so
@@ -436,6 +455,8 @@ test-appsrc_SOURCE_DIR:STATIC=/nfs/share/minh.nguyen-xuan/test-appsrc-jetson
 # INTERNAL cache entries
 ########################
 
+//ADVANCED property for variable: Boost_DIR
+Boost_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_ADDR2LINE
 CMAKE_ADDR2LINE-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_AR
@@ -579,6 +600,8 @@ CMAKE_STRIP-ADVANCED:INTERNAL=1
 CMAKE_UNAME:INTERNAL=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/bin/uname
 //ADVANCED property for variable: CMAKE_VERBOSE_MAKEFILE
 CMAKE_VERBOSE_MAKEFILE-ADVANCED:INTERNAL=1
+//Details about finding Boost
+FIND_PACKAGE_MESSAGE_DETAILS_Boost:INTERNAL=[/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/cmake/Boost-1.72.0/BoostConfig.cmake][cfound components: timer chrono ][v1.72.0()]
 //Details about finding PkgConfig
 FIND_PACKAGE_MESSAGE_DETAILS_PkgConfig:INTERNAL=[/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/pkg-config][v0.29.2()]
 GSTREAMER_CFLAGS:INTERNAL=-pthread;-I/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/gstreamer-1.0;-I/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/glib-2.0;-I/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/glib-2.0/include
@@ -694,6 +717,12 @@ __pkg_config_arguments_OPENCV:INTERNAL=REQUIRED;opencv4
 __pkg_config_checked_GSTREAMER:INTERNAL=1
 __pkg_config_checked_GST_RTSP_SERVER:INTERNAL=1
 __pkg_config_checked_OPENCV:INTERNAL=1
+//ADVANCED property for variable: boost_chrono_DIR
+boost_chrono_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_headers_DIR
+boost_headers_DIR-ADVANCED:INTERNAL=1
+//ADVANCED property for variable: boost_timer_DIR
+boost_timer_DIR-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_GSTREAMER_glib-2.0
 pkgcfg_lib_GSTREAMER_glib-2.0-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: pkgcfg_lib_GSTREAMER_gobject-2.0
