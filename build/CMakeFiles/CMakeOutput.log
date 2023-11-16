@@ -1,0 +1,414 @@
+The target system is: Linux -  - aarch64
+The host system is: Linux - 5.15.0-88-generic - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc -march=armv8-a+crc;-fstack-protector-strong;-D_FORTIFY_SOURCE=2;-Wformat;-Wformat-security;-Werror=format-security;--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/3.16.5/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++ -march=armv8-a+crc;-fstack-protector-strong;-D_FORTIFY_SOURCE=2;-Wformat;-Wformat-security;-Werror=format-security;--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux
+Build flags: ;-O2;-pipe;-g;-feliminate-unused-debug-types;
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/3.16.5/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make cmTC_93ce1/fast && /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make -f CMakeFiles/cmTC_93ce1.dir/build.make CMakeFiles/cmTC_93ce1.dir/build
+make[1]: Entering directory '/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_93ce1.dir/testCCompiler.c.o
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_93ce1.dir/testCCompiler.c.o   -c /nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp/testCCompiler.c
+Linking C executable cmTC_93ce1
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_93ce1.dir/link.txt --verbose=1
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now  CMakeFiles/cmTC_93ce1.dir/testCCompiler.c.o  -o cmTC_93ce1 
+make[1]: Leaving directory '/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make cmTC_a92df/fast && /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make -f CMakeFiles/cmTC_a92df.dir/build.make CMakeFiles/cmTC_a92df.dir/build
+make[1]: Entering directory '/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o   -c /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc
+Target: aarch64-poky-linux
+Configured with: ../../../../../../work-shared/gcc-8.3.0-r0/gcc-8.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --disable-install-libiberty --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0 --with-build-time-tools=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --without-long-double-128 libgcc_cv_powerpc_float128=no --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/cc1 -quiet -v -isysroot /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux -D _FORTIFY_SOURCE=2 /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv8-a+crc -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |
+ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o
+GNU assembler version 2.34.0 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.34.0.20200910
+GNU C17 (GCC) version 8.3.0 (aarch64-poky-linux)
+	compiled by GNU C version 8.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/include"
+ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/local/include"
+ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/../../../../../aarch64-poky-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include
+ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed
+ /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/
+End of search list.
+GNU C17 (GCC) version 8.3.0 (aarch64-poky-linux)
+	compiled by GNU C version 8.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: c27215dcc762bbe6cd16747b2b6276e1
+COMPILER_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64'
+Linking C executable cmTC_a92df
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a92df.dir/link.txt --verbose=1
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now -v CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o  -o cmTC_a92df 
+Using built-in specs.
+COLLECT_GCC=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc
+COLLECT_LTO_WRAPPER=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/lto-wrapper
+Target: aarch64-poky-linux
+Configured with: ../../../../../../work-shared/gcc-8.3.0-r0/gcc-8.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --disable-install-libiberty --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0 --with-build-time-tools=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --without-long-double-128 libgcc_cv_powerpc_float128=no --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COMPILER_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_a92df' '-mlittle-endian' '-mabi=lp64'
+ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/collect2 -plugin /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/liblto_plugin.so -plugin-opt=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdkBsGA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_a92df /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crti.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtbeginS.o -L/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0 -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0 -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtendS.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_a92df' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include]
+    add: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed]
+    add: [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/]
+  end of search list found
+  collapse include dir [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include] ==> [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include]
+  collapse include dir [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed] ==> [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed]
+  collapse include dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include]
+  implicit include dirs: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include;/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-poky-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make cmTC_a92df/fast && /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make -f CMakeFiles/cmTC_a92df.dir/build.make CMakeFiles/cmTC_a92df.dir/build]
+  ignore line: [make[1]: Entering directory '/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o   -c /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-8.3.0-r0/gcc-8.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --disable-install-libiberty --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0 --with-build-time-tools=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --without-long-double-128 libgcc_cv_powerpc_float128=no --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/cc1 -quiet -v -isysroot /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux -D _FORTIFY_SOURCE=2 /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.16/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -march=armv8-a+crc -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o]
+  ignore line: [GNU assembler version 2.34.0 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.34.0.20200910]
+  ignore line: [GNU C17 (GCC) version 8.3.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/../../../../../aarch64-poky-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (GCC) version 8.3.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: c27215dcc762bbe6cd16747b2b6276e1]
+  ignore line: [COMPILER_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o' '-c' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking C executable cmTC_a92df]
+  ignore line: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a92df.dir/link.txt --verbose=1]
+  ignore line: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux  -O2 -pipe -g -feliminate-unused-debug-types    --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux -Wl -O1 -Wl --hash-style=gnu -Wl --as-needed -fstack-protector-strong -Wl -z relro -z now -v CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o  -o cmTC_a92df ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-8.3.0-r0/gcc-8.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --disable-install-libiberty --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0 --with-build-time-tools=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --without-long-double-128 libgcc_cv_powerpc_float128=no --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_a92df' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/collect2 -plugin /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/liblto_plugin.so -plugin-opt=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdkBsGA.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_a92df /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crti.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtbeginS.o -L/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0 -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0 -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o -lgcc --as-needed -lgcc_s --no-as-needed -lc -lgcc --as-needed -lgcc_s --no-as-needed /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtendS.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crtn.o]
+    arg [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdkBsGA.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_a92df] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crti.o] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtbeginS.o] ==> ignore
+    arg [-L/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0] ==> dir [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0]
+    arg [-L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib] ==> dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib]
+    arg [-L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0] ==> dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0]
+    arg [-L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib] ==> dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_a92df.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--no-as-needed] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtendS.o] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0] ==> [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0]
+  collapse library dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib]
+  collapse library dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0]
+  collapse library dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit dirs: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib]
+  implicit fwks: []
+
+
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make cmTC_8e373/fast && /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make -f CMakeFiles/cmTC_8e373.dir/build.make CMakeFiles/cmTC_8e373.dir/build
+make[1]: Entering directory '/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_8e373.dir/testCXXCompiler.cxx.o
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -o CMakeFiles/cmTC_8e373.dir/testCXXCompiler.cxx.o -c /nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+Linking CXX executable cmTC_8e373
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8e373.dir/link.txt --verbose=1
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now  CMakeFiles/cmTC_8e373.dir/testCXXCompiler.cxx.o  -o cmTC_8e373 
+make[1]: Leaving directory '/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp'
+
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make cmTC_7dadc/fast && /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make -f CMakeFiles/cmTC_7dadc.dir/build.make CMakeFiles/cmTC_7dadc.dir/build
+make[1]: Entering directory '/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o -c /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp
+Using built-in specs.
+COLLECT_GCC=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
+Target: aarch64-poky-linux
+Configured with: ../../../../../../work-shared/gcc-8.3.0-r0/gcc-8.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --disable-install-libiberty --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0 --with-build-time-tools=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --without-long-double-128 libgcc_cv_powerpc_float128=no --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/cc1plus -quiet -v -isysroot /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv8-a+crc -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |
+ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o
+GNU assembler version 2.34.0 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.34.0.20200910
+GNU C++14 (GCC) version 8.3.0 (aarch64-poky-linux)
+	compiled by GNU C version 8.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/include"
+ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/local/include"
+ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/../../../../../aarch64-poky-linux/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0
+ /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/aarch64-poky-linux
+ /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/backward
+ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include
+ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed
+ /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/
+End of search list.
+GNU C++14 (GCC) version 8.3.0 (aarch64-poky-linux)
+	compiled by GNU C version 8.3.0, GMP version 6.2.0, MPFR version 4.0.2, MPC version 1.1.0, isl version none
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: bb9e88e8652ad25b81390d2bfcdc6a5a
+COMPILER_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+Linking CXX executable cmTC_7dadc
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dadc.dir/link.txt --verbose=1
+/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux -Wl,-O1 -Wl,--hash-style=gnu -Wl,--as-needed -fstack-protector-strong -Wl,-z,relro,-z,now -v CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7dadc 
+Using built-in specs.
+COLLECT_GCC=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
+COLLECT_LTO_WRAPPER=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/lto-wrapper
+Target: aarch64-poky-linux
+Configured with: ../../../../../../work-shared/gcc-8.3.0-r0/gcc-8.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --disable-install-libiberty --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0 --with-build-time-tools=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --without-long-double-128 libgcc_cv_powerpc_float128=no --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit
+Thread model: posix
+gcc version 8.3.0 (GCC) 
+COMPILER_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/
+LIBRARY_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/
+COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_7dadc' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/collect2 -plugin /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/liblto_plugin.so -plugin-opt=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdlWSVv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_7dadc /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crti.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtbeginS.o -L/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0 -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0 -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtendS.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crtn.o
+COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_7dadc' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64'
+make[1]: Leaving directory '/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed CXX implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0]
+    add: [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/aarch64-poky-linux]
+    add: [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/backward]
+    add: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include]
+    add: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed]
+    add: [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/]
+  end of search list found
+  collapse include dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0]
+  collapse include dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/aarch64-poky-linux] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/aarch64-poky-linux]
+  collapse include dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/backward] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/backward]
+  collapse include dir [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include] ==> [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include]
+  collapse include dir [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed] ==> [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed]
+  collapse include dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include]
+  implicit include dirs: [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/aarch64-poky-linux;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/backward;/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include;/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include]
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(aarch64-poky-linux-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make cmTC_7dadc/fast && /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/make -f CMakeFiles/cmTC_7dadc.dir/build.make CMakeFiles/cmTC_7dadc.dir/build]
+  ignore line: [make[1]: Entering directory '/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux    -O2 -pipe -g -feliminate-unused-debug-types     -v -o CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o -c /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-8.3.0-r0/gcc-8.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --disable-install-libiberty --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0 --with-build-time-tools=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --without-long-double-128 libgcc_cv_powerpc_float128=no --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/cc1plus -quiet -v -isysroot /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux -D_GNU_SOURCE -D _FORTIFY_SOURCE=2 /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/share/cmake-3.16/Modules/CMakeCXXCompilerABI.cpp -quiet -dumpbase CMakeCXXCompilerABI.cpp -march=armv8-a+crc -mlittle-endian -mabi=lp64 -auxbase-strip CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o -g -O2 -Wformat=1 -Wformat-security -Werror=format-security -version -fstack-protector-strong -feliminate-unused-debug-types -o - |]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/as -v -EL -march=armv8-a+crc -mabi=lp64 -o CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [GNU assembler version 2.34.0 (aarch64-poky-linux) using BFD version (GNU Binutils) 2.34.0.20200910]
+  ignore line: [GNU C++14 (GCC) version 8.3.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/include"]
+  ignore line: [ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/local/include"]
+  ignore line: [ignoring nonexistent directory "/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/../../../../../aarch64-poky-linux/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/aarch64-poky-linux]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/c++/8.3.0/backward]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/include-fixed]
+  ignore line: [ /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/include/]
+  ignore line: [End of search list.]
+  ignore line: [GNU C++14 (GCC) version 8.3.0 (aarch64-poky-linux)]
+  ignore line: [	compiled by GNU C version 8.3.0  GMP version 6.2.0  MPFR version 4.0.2  MPC version 1.1.0  isl version none]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: bb9e88e8652ad25b81390d2bfcdc6a5a]
+  ignore line: [COMPILER_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-v' '-o' 'CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  ignore line: [Linking CXX executable cmTC_7dadc]
+  ignore line: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7dadc.dir/link.txt --verbose=1]
+  ignore line: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++   -march=armv8-a+crc -fstack-protector-strong  -D_FORTIFY_SOURCE=2 -Wformat -Wformat-security -Werror=format-security --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux   -O2 -pipe -g -feliminate-unused-debug-types    --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux -Wl -O1 -Wl --hash-style=gnu -Wl --as-needed -fstack-protector-strong -Wl -z relro -z now -v CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_7dadc ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/lto-wrapper]
+  ignore line: [Target: aarch64-poky-linux]
+  ignore line: [Configured with: ../../../../../../work-shared/gcc-8.3.0-r0/gcc-8.3.0/configure --build=x86_64-linux --host=x86_64-pokysdk-linux --target=aarch64-poky-linux --prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --exec_prefix=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr --bindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --sbindir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux --libexecdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux --datadir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share --sysconfdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/etc --sharedstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/com --localstatedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/var --libdir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux --includedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --oldincludedir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/include --infodir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/info --mandir=/usr/local/oe-sdk-hardcoded-buildpath/sysroots/x86_64-pokysdk-linux/usr/share/man --disable-silent-rules --disable-dependency-tracking --with-libtool-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --with-gnu-ld --enable-shared --enable-languages=c,c++ --enable-threads=posix --enable-multilib --enable-default-pie --enable-c99 --enable-long-long --enable-symvers=gnu --disable-install-libiberty --enable-libstdcxx-pch --program-prefix=aarch64-poky-linux- --without-local-prefix --enable-lto --disable-libssp --enable-libitm --disable-bootstrap --disable-libmudflap --with-system-zlib --with-linker-hash-style=gnu --enable-linker-build-id --with-ppl=no --with-cloog=no --enable-checking=release --enable-cheaders=c_global --without-isl --with-gxx-include-dir=/not/exist/usr/include/c++/8.3.0 --with-build-time-tools=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot-native/usr/aarch64-poky-linux/bin --with-sysroot=/not/exist --with-build-sysroot=/prj/es-automotive/adas/work/lang.ung-minh/yocto/build/tmp/work/x86_64-nativesdk-pokysdk-linux/gcc-cross-canadian-aarch64/8.3.0-r0/recipe-sysroot --without-long-double-128 libgcc_cv_powerpc_float128=no --enable-poison-system-directories --disable-static --enable-nls --with-glibc-version=2.28 --enable-initfini-array --enable-__cxa_atexit]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 8.3.0 (GCC) ]
+  ignore line: [COMPILER_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/]
+  ignore line: [LIBRARY_PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/:/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux' '-march=armv8-a+crc' '-fstack-protector-strong' '-D' '_FORTIFY_SOURCE=2' '-Wformat=1' '-Wformat-security' '-Werror=format-security' '-O2' '-pipe' '-g' '-feliminate-unused-debug-types' '-fstack-protector-strong' '-v' '-o' 'cmTC_7dadc' '-shared-libgcc' '-mlittle-endian' '-mabi=lp64']
+  link line: [ /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/collect2 -plugin /home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/liblto_plugin.so -plugin-opt=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/lto-wrapper -plugin-opt=-fresolution=/tmp/ccdlWSVv.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lgcc --sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux --build-id --eh-frame-hdr --hash-style=gnu -dynamic-linker /lib/ld-linux-aarch64.so.1 -X -EL -maarch64linux -pie -o cmTC_7dadc /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crti.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtbeginS.o -L/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0 -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0 -L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib -O1 --hash-style=gnu --as-needed -z relro -z now CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lgcc_s -lgcc -lc -lgcc_s -lgcc /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtendS.o /home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crtn.o]
+    arg [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/libexec/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccdlWSVv.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [--sysroot=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-linux-aarch64.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-EL] ==> ignore
+    arg [-maarch64linux] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_7dadc] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/Scrt1.o] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crti.o] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtbeginS.o] ==> ignore
+    arg [-L/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0] ==> dir [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0]
+    arg [-L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib] ==> dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib]
+    arg [-L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0] ==> dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0]
+    arg [-L/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib] ==> dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib]
+    arg [-O1] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-zrelro] ==> ignore
+    arg [-znow] ==> ignore
+    arg [CMakeFiles/cmTC_7dadc.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lgcc] ==> lib [gcc]
+    arg [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0/crtendS.o] ==> ignore
+    arg [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/crtn.o] ==> ignore
+  collapse library dir [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0] ==> [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0]
+  collapse library dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib]
+  collapse library dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0]
+  collapse library dir [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib] ==> [/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib]
+  implicit libs: [stdc++;m;gcc_s;gcc;c;gcc_s;gcc]
+  implicit dirs: [/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/lib/aarch64-poky-linux/gcc/aarch64-poky-linux/8.3.0;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/lib;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib/aarch64-poky-linux/8.3.0;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/lib]
+  implicit fwks: []
+
+
