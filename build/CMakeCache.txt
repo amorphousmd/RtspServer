@@ -20,7 +20,7 @@ CMAKE_ADDR2LINE:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/u
 //Path to a program.
 CMAKE_AR:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-ar
 
-CMAKE_ASM_FLAGS:STRING=' -O2 -pipe -g -feliminate-unused-debug-types '
+CMAKE_ASM_FLAGS:STRING=
 
 //Choose the type of build, options are: None Debug Release RelWithDebInfo
 // MinSizeRel ...
@@ -29,7 +29,7 @@ CMAKE_BUILD_TYPE:STRING=
 //Enable/Disable color output during build.
 CMAKE_COLOR_MAKEFILE:BOOL=ON
 
-CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES:STRING=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/local/cuda-10.2/include;/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/local/cuda-10.2/include
+CMAKE_CUDA_TOOLKIT_INCLUDE_DIRECTORIES:STRING=/usr/local/cuda-/include;/usr/local/cuda-/include
 
 //CXX compiler
 CMAKE_CXX_COMPILER:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-g++
@@ -45,7 +45,7 @@ CMAKE_CXX_COMPILER_ARG1:STRING=  -march=armv8-a+crc -fstack-protector-strong  -D
 // for the GCC compiler
 CMAKE_CXX_COMPILER_RANLIB:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc-ranlib
 
-CMAKE_CXX_FLAGS:STRING=' -O2 -pipe -g -feliminate-unused-debug-types '
+CMAKE_CXX_FLAGS:STRING=
 
 //Flags used by the CXX compiler during DEBUG builds.
 CMAKE_CXX_FLAGS_DEBUG:STRING=-g
@@ -73,7 +73,7 @@ CMAKE_C_COMPILER_ARG1:STRING=  -march=armv8-a+crc -fstack-protector-strong  -D_F
 // for the GCC compiler
 CMAKE_C_COMPILER_RANLIB:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/aarch64-poky-linux/aarch64-poky-linux-gcc-ranlib
 
-CMAKE_C_FLAGS:STRING=' -O2 -pipe -g -feliminate-unused-debug-types '
+CMAKE_C_FLAGS:STRING=
 
 //Flags used by the C compiler during DEBUG builds.
 CMAKE_C_FLAGS_DEBUG:STRING=-g
@@ -220,9 +220,9 @@ CMAKE_TOOLCHAIN_FILE:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-li
 // Studio IDE projects all commands are done without /nologo.
 CMAKE_VERBOSE_MAKEFILE:BOOL=FALSE
 
-CUDA_TOOLKIT_ROOT_DIR:PATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/local/cuda-10.2
+CUDA_TOOLKIT_ROOT_DIR:PATH=/usr/local/cuda-
 
-CUDA_TOOLKIT_TARGET_DIR:PATH=/home/lang.ung-minh/sdk/sysroots/aarch64-poky-linux/usr/local/cuda-10.2
+CUDA_TOOLKIT_TARGET_DIR:PATH=/usr/local/cuda-
 
 //pkg-config executable
 PKG_CONFIG_EXECUTABLE:FILEPATH=/home/lang.ung-minh/sdk/sysroots/x86_64-pokysdk-linux/usr/bin/pkg-config

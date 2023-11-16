@@ -4230,7 +4230,3 @@ gst/rtsp-server/rtsp-server.h
 opencv2/opencv.hpp
 -
 
-/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/main.cpp
-RtspServer.hpp
-/nfs/share/minh.nguyen-xuan/test-appsrc-jetson/RtspServer.hpp
-

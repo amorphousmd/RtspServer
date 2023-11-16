@@ -22,4 +22,7 @@ target_link_libraries(main PRIVATE
     ${OPENCV_LIBRARIES}
 )
 
-
+# Add flags to suppress warnings
+if(CMAKE_COMPILER_IS_GNUCC OR CMAKE_COMPILER_IS_GNUCXX)
+    set(CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -w")
+endif()
